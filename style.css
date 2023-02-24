@@ -57,7 +57,7 @@ body {
     background-color: rgba(99, 99, 99, 0.888);
     padding: 5px 15px;
     width: 100%;
-    height: 35px;
+    height: 45px;
     border-radius: 10px;
 }
 .header__right-side {
@@ -76,4 +76,34 @@ body {
 .header-right-stop {
     color: blue;
     cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    background-color: #141516;
+}
+.main__body {
+    margin-top: 40px;
+    display: flex;
+}
+.main__body-translation-img {
+    margin-left: 22px;
+    padding: 10px;
+}
+.main__body-more-people-bloc {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.people-box {
+    width: 200px;
+    height: 100px;
+    background-image: url(https://media.tenor.com/Pl4WC5dd83UAAAAC/meme-memes.gif);
+    background-size: 100%;
+    background-color: #343434;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.people-box1-text {
+    text-align: center;
 }
